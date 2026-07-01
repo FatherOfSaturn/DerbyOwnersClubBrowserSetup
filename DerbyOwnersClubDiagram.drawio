@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="0iVNEhzLOLaRfF0zNzFs">
+    <mxGraphModel dx="1514" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="281" x="319" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="240" width="370" x="-160" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Flycast Instances" vertex="1">
+          <mxGeometry height="40" width="110" x="-150" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Flycast Instances" vertex="1">
+          <mxGeometry height="40" width="110" x="-140" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Flycast Instances" vertex="1">
+          <mxGeometry height="40" width="110" x="-130" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Video Capture Software (OBS)" vertex="1">
+          <mxGeometry height="60" width="120" x="-135" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Media Server&lt;div&gt;(MediaMTX)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-135" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="UI Server&lt;div&gt;(React Software)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="10" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Backend Software&lt;div&gt;(Node.js)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="10" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Your personal Computer" vertex="1">
+          <mxGeometry height="40" width="90" x="-25" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="120" width="150" x="384.4" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Some DNS Provider / Proxy" vertex="1">
+          <mxGeometry height="30" width="120" x="399.4" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-16" edge="1" parent="1" source="BaCaRh54UOyPGNM5BlkN-8" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BaCaRh54UOyPGNM5BlkN-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint y="480" as="sourcePoint" />
+            <mxPoint x="50" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-17" edge="1" parent="1" source="BaCaRh54UOyPGNM5BlkN-9" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="BaCaRh54UOyPGNM5BlkN-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-10" y="550" as="sourcePoint" />
+            <mxPoint x="40" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-18" parent="1" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" value="Cloudflare" vertex="1">
+          <mxGeometry height="80" width="120" x="399.4" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-19" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" value="" vertex="1">
+          <mxGeometry height="61.800000000000004" width="45.6" x="384.4" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-20" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" value="" vertex="1">
+          <mxGeometry height="61.800000000000004" width="45.6" x="439.4" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-22" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" value="" vertex="1">
+          <mxGeometry height="61.800000000000004" width="45.6" x="424.4" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-23" parent="1" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" value="" vertex="1">
+          <mxGeometry height="61.800000000000004" width="45.6" x="479.4" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="The Internet" vertex="1">
+          <mxGeometry height="30" width="60" x="432.2" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-28" edge="1" parent="1" source="BaCaRh54UOyPGNM5BlkN-14" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="BaCaRh54UOyPGNM5BlkN-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="310" as="sourcePoint" />
+            <mxPoint x="480" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Set up Routes through a Proxy to protect your home internet" vertex="1">
+          <mxGeometry height="50" width="140" x="220" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="Serve Project at your DNS name&lt;div&gt;(my personal DNS is&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Https://DerbyOwnersClub.online)&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="410" x="254.5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" value="Cloudflare Tunnel" vertex="1">
+          <mxGeometry height="220" width="55.5" x="140" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-26" edge="1" parent="1" source="BaCaRh54UOyPGNM5BlkN-11" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BaCaRh54UOyPGNM5BlkN-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="230" y="460" as="sourcePoint" />
+            <mxPoint x="280" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-27" edge="1" parent="1" source="BaCaRh54UOyPGNM5BlkN-12" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BaCaRh54UOyPGNM5BlkN-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="540" as="sourcePoint" />
+            <mxPoint x="310" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-32" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Community" vertex="1">
+          <mxGeometry height="60" width="30" x="790" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-33" edge="1" parent="1" source="BaCaRh54UOyPGNM5BlkN-32" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="BaCaRh54UOyPGNM5BlkN-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="660" y="190" as="sourcePoint" />
+            <mxPoint x="710" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BaCaRh54UOyPGNM5BlkN-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Access your DNS. Access is restricted by email to only allow your friends to join" vertex="1">
+          <mxGeometry height="50" width="160" x="610" y="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
