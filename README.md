@@ -39,9 +39,13 @@ The internet to me here is just any browser. If you visit your Host name, mine i
 - For both files you would remove the .example so that it becomes your real env configuration
 
 # What is left to do?
+- [ ] Controller mapping fix for whip and hold
 - [ ] Horse Saving
 - [ ] A lot of streamlining of setup
+- [ ] Video Feeds a little inconsistent when run over the Internet through cloudflare. Not really an issue on your own LAN though.
 - [ ] Latency Improvements
+  - [ ] Latency starts out great, almost like you are there, slowly gets poisoned and slow
   - [ ] Look into GStreamer to replace OBS
   - [ ] Look into ffmpeg to replace OBS
-- [ ] Infrastructure to join home servers together 
+- [ ] Infrastructure to join home servers together
+- [ ] UI Visual improvements
